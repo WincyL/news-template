@@ -55,19 +55,6 @@ function App() {
           <p className='text-lg text-center'>lacus lorem, bibendum at magna id, tempor convallis ipsum.</p>
         </div>
 
-        <div className=' w-full flex flex-col'
-          style={{
-            lineHeight: '2.5rem'
-          }}>
-          <p className=' underline'>https://github.com/Thintin914/news-template</p>
-          <p className=' underline'>https://nodejs.org/en/</p>
-          <p className=' underline'>https://git-fork.com/</p>
-          <p className=' underline'>https://vercel.com/</p>
-          <p className=' underline'>https://recharts.org/en-US/examples/SimpleLineChart</p>
-          <p className=' font-mono'>npm i</p>
-          <p className=' font-mono'>npm run start</p>
-        </div>
-
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo. Nulla posuere tellus non consectetur sodales. Cras ut est laoreet, faucibus tellus et, tempus sem. Ut sit amet lacus cursus, tempor dolor a, congue orci. Integer tempus rhoncus rutrum. Fusce efficitur lacus quis diam bibendum egestas. Pellentesque eget eros id eros scelerisque faucibus non ac ligula.</p>
         
         <p className=' text-3xl text-center w-full font-semibold'>Donec eu faucibus ante</p>
