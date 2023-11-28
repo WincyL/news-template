@@ -42,7 +42,7 @@ function App() {
           style={{
             lineHeight: '1.8rem'
           }}>
-          <p className=' text-3xl md:text-5xl font-bold mb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className=' text-3xl md:text-5xl font-bold mb-5'>testing Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
           <div className=' w-full flex flex-col md:flex-row justify-between items-start'>
             <p className=' text-gray-400 mb-5'>Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo.</p>
