@@ -110,47 +110,15 @@ function App() {
         
         <BarChartStackedBySign01 width={pageWidth} />
 
-        <p>HAHA  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo. Nulla posuere tellus non consectetur sodales. Cras ut est laoreet, faucibus tellus et, tempus sem. Ut sit amet lacus cursus, tempor dolor a, congue orci.</p>
-        <p>Integer tempus rhoncus rutrum. Fusce efficitur lacus quis diam bibendum egestas. Pellentesque eget eros id eros scelerisque faucibus non ac ligula.</p>
-      
-
-        <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>
-          <p className='flex w-full justify-center items-center text-center font-semibold'>
-            Nulla posuere tellus non consectetur sodales.
-          </p>
-          <SimpleLineChart width={pageWidth} />
-          <p className='text-lg text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo.</p>
-        </div>
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo. Nulla posuere tellus non consectetur sodales. Cras ut est laoreet, faucibus tellus et, tempus sem. Ut sit amet lacus cursus, tempor dolor a, congue orci.</p>
-        <p>Integer tempus rhoncus rutrum. Fusce efficitur lacus quis diam bibendum egestas. Pellentesque eget eros id eros scelerisque faucibus non ac ligula.</p>
-        <p>Aenean suscipit eros eu placerat pulvinar. Pellentesque a porta orci, nec sollicitudin erat. Nullam sem odio, scelerisque sit amet metus eu, sagittis consectetur tellus. Morbi laoreet arcu et sapien semper semper. Aliquam accumsan nec justo in hendrerit. Maecenas eget augue sit amet dolor facilisis pulvinar. Ut cursus, nunc in cursus condimentum, ante justo luctus tellus, sed mattis libero tortor non arcu. Proin libero tortor, pulvinar at nulla a, faucibus auctor enim. Mauris feugiat hendrerit dolor, sed volutpat nisi elementum id. Nulla tristique, magna pellentesque egestas vulputate, lectus dolor ultrices eros, sed tincidunt felis tellus et orci. Cras ut ultrices felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eu faucibus ante. Ut faucibus molestie sem, at auctor urna ultrices ut. Pellentesque imperdiet nisi leo, vel porta nisi convallis vel. Ut mauris ante, hendrerit vel congue sit amet, placerat sed dolor.</p>
-        <div className=' w-full relative flex justify-center items-center'>
-          <BottomRightDeco bottom={0} right={-30} />
-        </div>
-
-        <div className=' w-full flex flex-col md:flex-row justify-start items-start'>
-          <div className='w-full md:w-1/2 flex flex-col justify-start items-start text-center font-semibold'>
-            <p className='flex w-full justify-center items-center text-center font-semibold'>
-              Nulla posuere tellus non consectetur sodales.
-            </p>
-            <SimplePieChart width={screenWidth < 768 ? pageWidth : pageWidth * 0.5} />
-            <p className='text-lg text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo.</p>
-          </div>
-
-          <div className='w-full md:w-1/2 flex flex-col justify-start items-start text-center font-semibold'>
-            <p className='flex w-full justify-center items-center text-center font-semibold'>
-              Nulla posuere tellus non consectetur sodales.
-            </p>
-            <SimplePieChart width={screenWidth < 768 ? pageWidth : pageWidth * 0.5} />
-            <p className='text-lg text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo.</p>
-          </div>
-        </div>
-
         <FadeInParagraph text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo. Nulla posuere tellus non consectetur sodales. Cras ut est laoreet, faucibus tellus et, tempus sem. Ut sit amet lacus cursus, tempor dolor a, congue orci.' />
-        <p>Integer tempus rhoncus rutrum. Fusce efficitur lacus quis diam bibendum egestas. Pellentesque eget eros id eros scelerisque faucibus non ac ligula.</p>
-        <p>Aenean suscipit eros eu placerat pulvinar. Pellentesque a porta orci, nec sollicitudin erat. Nullam sem odio, scelerisque sit amet metus eu, sagittis consectetur tellus. Morbi laoreet arcu et sapien semper semper. Aliquam accumsan nec justo in hendrerit. Maecenas eget augue sit amet dolor facilisis pulvinar. Ut cursus, nunc in cursus condimentum, ante justo luctus tellus, sed mattis libero tortor non arcu. Proin libero tortor, pulvinar at nulla a, faucibus auctor enim. Mauris feugiat hendrerit dolor, sed volutpat nisi elementum id. Nulla tristique, magna pellentesque egestas vulputate, lectus dolor ultrices eros, sed tincidunt felis tellus et orci. Cras ut ultrices felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eu faucibus ante. Ut faucibus molestie sem, at auctor urna ultrices ut. Pellentesque imperdiet nisi leo, vel porta nisi convallis vel. Ut mauris ante, hendrerit vel congue sit amet, placerat sed dolor.</p>
+        <p>In March 2009, the Antiquities Advisory Board (AAB) announced that the assessment of 1,444 historic buildings in Hong Kong had been completed. As at the meeting on 7 September 2003, the grading of historic buildings was completed for 1,034 historic buildings. It has taken 14 years to complete about 70% of the work.</p>        
+        <p>Additionally, not having an overall conservation plan or 'blueprint' to guide strategic preservation and redevelopment decisions has led to an ad hoc approach and the loss of many important historical buildings.</p>
+
+        <p>Reforming aged legislation and adapting systems concerning international best practices, as seen in measures taken in Singapore, could strengthen Hong Kong's preservation efforts. This may involve revising the composition of advisory boards, expediting grading reviews, developing professional expertise, and implementing a long-term strategy and guidelines to balance conservation and development needs. Improving coordination, transparency and public participation in related decision-making would also help address current gaps between policy and community expectations.</p>
+
         
+        <p>HAHA OMG</p>
+      
         <div className=' w-full flex justify-center items-center'>
           <div className='w-full lg:w-[70%] aspect-video'>
             <Splide
