@@ -1,4 +1,4 @@
-import { CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis } from "recharts";
+import { CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis, Legend } from "recharts";
 import { FunctionComponent } from 'react';
 
 
@@ -240,14 +240,13 @@ export function SimpleLineChart(props: {width: number}){
         <XAxis dataKey="Year" tick={<CustomizedAxisTick />} interval={0} />
         <YAxis />
         <Tooltip content={<CustomTooltip />}/>
+        <Legend wrapperStyle={{paddingTop: 30}} />
         <Line type="monotone" dataKey="Telephone" stroke="#4A77C6"/> 
         <Line type="monotone" dataKey="Written" stroke="#ED7D31"/>
         <Line type="monotone" dataKey="Archives" stroke="#A5A5A5"/>
         <Line type="monotone" dataKey="Tours" stroke="#FFBC00"/>
         <Line type="monotone" dataKey="Lectures" stroke="#5295D3"/>
         <Line type="monotone" dataKey="Workshops" stroke="#70AD47"/>
-        
-        {/* //strokeWidth={2}// */}
     </LineChart>
     )
 }
