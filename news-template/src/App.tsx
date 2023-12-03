@@ -120,9 +120,15 @@ function App() {
         </div>
 
         <FadeInParagraph text='In March 2009, the Antiquities Advisory Board (AAB) announced that the assessment of 1,444 historic buildings in Hong Kong had been completed. As at the meeting on 7 September 2003, the grading of historic buildings was completed for 1,034 historic buildings. It has taken 14 years to complete about 70% of the work.' />    
+        <div className=' w-full relative flex justify-center items-center'>
+          <RightDeco right={-30} top={0} />
+        </div>
         <p>Additionally, not having an overall conservation plan or 'blueprint' to guide strategic preservation and redevelopment decisions has led to an ad hoc approach and the loss of many important historical buildings.</p>
         <p>Reforming aged legislation and adapting systems concerning international best practices, as seen in measures taken in Singapore, could strengthen Hong Kong's preservation efforts. This may involve revising the composition of advisory boards, expediting grading reviews, developing professional expertise, and implementing a long-term strategy and guidelines to balance conservation and development needs. Improving coordination, transparency and public participation in related decision-making would also help address current gaps between policy and community expectations.</p>
-
+        <div className=' w-full relative flex justify-center items-center'>
+          <BottomDeco bottom={0} />
+        </div>
+      </div>
       
         {/* <div className=' w-full flex justify-center items-center'>
           <div className='w-full lg:w-[70%] aspect-video'>
@@ -162,14 +168,7 @@ function App() {
         
         {/* <p>HAHA</p> */}
         
-        <div className=' w-full relative flex justify-center items-center'>
-          <RightDeco right={-30} top={0} />
-        </div>
-      
-        <div className=' w-full relative flex justify-center items-center'>
-          <BottomDeco bottom={0} />
-        </div>
-      </div>
+        
 
       {/* <div className='w-full h-[10vh] relative mt-[20vh]'>
         <div className="bg-fixed w-full h-full bg-cover absolute opacity-30 -z-50"
