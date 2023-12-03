@@ -162,13 +162,12 @@ function App() {
           </div>
         </div> */}
         
-        <p>HAHA</p>
+        {/* <p>HAHA</p> */}
         
         <div className=' w-full relative flex justify-center items-center'>
           <RightDeco right={-30} top={0} />
         </div>
-        <p>HAHA</p>
-        <p>HAHA</p>
+      
         <div className=' w-full relative flex justify-center items-center'>
           <BottomDeco bottom={0} />
         </div>
