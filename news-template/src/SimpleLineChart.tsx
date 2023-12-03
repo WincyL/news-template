@@ -231,14 +231,14 @@ export function SimpleLineChart(props: {width: number}){
     return (
     <LineChart width={props.width} height={300} data={data}
     margin={{
-        top: 80,
+        top: 10,
         right: 20,
         left: 20,
         bottom: 50
     }}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="Year" tick={<CustomizedAxisTick />} interval={0} />
-        <YAxis />
+        <YAxis domain={[0, 1200]} tickCount={15} interval={1} fontSize={20}/>
         <Tooltip content={<CustomTooltip />}/>
         <Legend wrapperStyle={{paddingTop: 30}} />
         <Line type="monotone" dataKey="Telephone" stroke="#4A77C6"/> 
