@@ -1,10 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
-import { BarChartStackedBySign} from './BarChartStackedBySign';
 import { BarChartStackedBySign01} from './BarChartStackedBySign01';
 import { SimpleLineChart } from './SimpleLineChart';
-import { SimplePieChart } from './SimplePieChart';
+import { DataComposedChart } from './DataComposedCharts';
 import { FadeInParagraph } from './FadeInParagraph';
 import { BottomDeco, BottomRightDeco, LeftDeco, RightDeco, TopRightDeco } from './utils/LineDeco';
 
@@ -93,9 +92,14 @@ function App() {
             our browser does not support the video tag.
           </video>
         </div> */}
-        
-        <BarChartStackedBySign01 width={pageWidth} />
 
+        <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>
+          <p className='flex w-full justify-center items-center text-center font-semibold'>
+          Approved Financial Assistance for Maintenance Schenme on Built Heritage
+          </p>
+          <DataComposedChart width={pageWidth} />
+        </div>
+        
         <FadeInParagraph text='In 2023-2024, there has 8 applications have been approved for the Financial Assistance for Maintenance Scheme on Built Heritage. The government has provided a total of 1.45 million for maintenance works.' />
         <p>However, the funds currently provided by the government are only enough to deal with an average of 9 to 10 applications in a year, and there are a total of 8,803 heritage in Hong Kong. It will take a certain amount of time to protect all heritage. Therefore, the funds are still not able to bring efficiency to the restoration of cultural relics. Hong Kong still faces the challenge of insufficient resources.</p>
         <p>However, public participation in oversight and planning remains limited. The Antiquities and Monuments Office does not adequately seek or consider public sentiment in its grading and assessment of buildings. It also needs to report on or explain delays and decisions properly.</p>
@@ -105,15 +109,12 @@ function App() {
             Monthly Statistics on Educattional and Publicity Activities
           </p>
           <SimpleLineChart width={pageWidth} />
-          <p className='text-lg text-center'>Growing enthusiasm for heritage as shown by participation in local tours and enquiries indicates strong community interest that could aid preservation if harnessed through more transparent and inclusive public consultation initiatives.</p>
         </div>
         
         <BarChartStackedBySign01 width={pageWidth} />
 
-        <FadeInParagraph text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo. Nulla posuere tellus non consectetur sodales. Cras ut est laoreet, faucibus tellus et, tempus sem. Ut sit amet lacus cursus, tempor dolor a, congue orci.' />
-        <p>In March 2009, the Antiquities Advisory Board (AAB) announced that the assessment of 1,444 historic buildings in Hong Kong had been completed. As at the meeting on 7 September 2003, the grading of historic buildings was completed for 1,034 historic buildings. It has taken 14 years to complete about 70% of the work.</p>        
+        <FadeInParagraph text='In March 2009, the Antiquities Advisory Board (AAB) announced that the assessment of 1,444 historic buildings in Hong Kong had been completed. As at the meeting on 7 September 2003, the grading of historic buildings was completed for 1,034 historic buildings. It has taken 14 years to complete about 70% of the work.' />    
         <p>Additionally, not having an overall conservation plan or 'blueprint' to guide strategic preservation and redevelopment decisions has led to an ad hoc approach and the loss of many important historical buildings.</p>
-
         <p>Reforming aged legislation and adapting systems concerning international best practices, as seen in measures taken in Singapore, could strengthen Hong Kong's preservation efforts. This may involve revising the composition of advisory boards, expediting grading reviews, developing professional expertise, and implementing a long-term strategy and guidelines to balance conservation and development needs. Improving coordination, transparency and public participation in related decision-making would also help address current gaps between policy and community expectations.</p>
 
         
