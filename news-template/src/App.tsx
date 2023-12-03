@@ -77,31 +77,32 @@ function App() {
         </div>
         <p className=' text-3xl text-left w-full font-semibold'>Historic buildings demolished or substantially altered</p>
 
-        {/* <BarChartStackedBySign width={pageWidth} /> */}
         <BarChartStackedBySign01 width={pageWidth} />
 
-        <p>Nullam lectus elit, viverra at dignissim vitae, hendrerit mattis ligula. Praesent sit amet scelerisque lectus. Ut scelerisque sem leo, ac lobortis mauris viverra sit amet. Sed sed purus quis nisl auctor cursus. Ut convallis vel risus pharetra bibendum. Ut eu lectus eros. Suspendisse semper tellus nec lectus viverra aliquam. Etiam blandit lorem sit amet risus suscipit pretium. Ut mattis pellentesque nibh, a tempus nisi dapibus ut.</p>
-        <p>Aenean suscipit eros eu placerat pulvinar. Pellentesque a porta orci, nec sollicitudin erat. Nullam sem odio, scelerisque sit amet metus eu, sagittis consectetur tellus. Morbi laoreet arcu et sapien semper semper. Aliquam accumsan nec justo in hendrerit. Maecenas eget augue sit amet dolor facilisis pulvinar. Ut cursus, nunc in cursus condimentum, ante justo luctus tellus, sed mattis libero tortor non arcu. Proin libero tortor, pulvinar at nulla a, faucibus auctor enim.</p>
+        <p>In 2023, there had 27 historic buildings are demolished or significantly altered. Also, the Government's desire to integrate urban development with heritage conservation. </p>
+        <p>190 Nathan Road is the only pre-war western style building in Tsim Sha Tsui and has now been transformed into a LEGO store. “Hong Kong Heritage” founder Chan Kwok Ho mentioned that “Urban Studies Institute” and “Walk in Hong Kong” submitted a detail-report to the Antiquities and Monuments Office required to be re-rated 190 Nathan Road as a Grade 1 historic building. However, the application was rejected by the Office. This action made Chan believed Antiquities and Monuments Office often ignored public opinion and sentiment. It also lacked public participation in the process of cultural preservation, and gradually commercialized many buildings. Also loses the original memory and value of the community.</p>
         
         <div className=' w-full relative flex justify-center items-center'>
           <LeftDeco left={-30} top={0} />
         </div>
-        <p>Mauris feugiat hendrerit dolor, sed volutpat nisi elementum id. Nulla tristique, magna pellentesque egestas vulputate, lectus dolor ultrices eros, sed tincidunt felis tellus et orci. Cras ut ultrices felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eu faucibus ante. Ut faucibus molestie sem, at auctor urna ultrices ut. Pellentesque imperdiet nisi leo, vel porta nisi convallis vel. Ut mauris ante, hendrerit vel congue sit amet, placerat sed dolor.</p>
+        <p>The Hong Kong Government has provided additional funding of HK$1 billion for the Heritage Conservation Building Fund in the Appropriation Bill 2022. Second, The Development Bureau established the Commissioner for Heritage's Office on 25 April 2008. It offers Financial Assistance for the Maintenance Scheme on Built Heritage for the organization those are non-profit-making organizations. Each application will receive a subsidy of up to HK$2 million for heritage maintenance works.</p>
 
-        <div className='w-full flex justify-center items-center'>
+        {/* <div className='w-full flex justify-center items-center'>
           <video className='w-full' controls>
             <source src="./images/cute-cat.mp4" type="video/mp4"/>
             our browser does not support the video tag.
           </video>
-        </div>
+        </div> */}
         
+        <BarChartStackedBySign01 width={pageWidth} />
+
         <FadeInParagraph text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo. Nulla posuere tellus non consectetur sodales. Cras ut est laoreet, faucibus tellus et, tempus sem. Ut sit amet lacus cursus, tempor dolor a, congue orci. Integer tempus rhoncus rutrum. Fusce efficitur lacus quis diam bibendum egestas. Pellentesque eget eros id eros scelerisque faucibus non ac ligula.' />
-        <p>Ut eu vehicula massa, vitae interdum massa. Phasellus eget lorem sollicitudin, iaculis est vel, suscipit sapien. Nam eu fringilla urna. Nulla elementum, urna at cursus tempor, ex mi pulvinar odio, at condimentum sapien eros ut urna. Nam a massa tellus. Donec et eleifend arcu. Sed sit amet ante arcu.</p>
-        <p>Nulla porta, elit lacinia pellentesque elementum, ex metus aliquam nibh, ut mattis urna diam non lacus. Maecenas vel pellentesque lacus. Sed tristique nisl vestibulum magna efficitur, ut efficitur erat suscipit. Nam vitae leo in erat vulputate vulputate eu ut massa. Sed ut tortor eu sem vehicula pharetra sed eu risus.</p>
+        <p>In 2023-2024, there has 8 applications have been approved for the Financial Assistance for Maintenance Scheme on Built Heritage. The government has provided a total of 1.45 million for maintenance works.</p>
+        <p>However, the funds currently provided by the government are only enough to deal with an average of 9 to 10 applications in a year, and there are a total of 8,803 heritage in Hong Kong. It will take a certain amount of time to protect all heritage. Therefore, the funds are still not able to bring efficiency to the restoration of cultural relics. Hong Kong still faces the challenge of insufficient resources.</p>
         
         <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>
           <p className='flex w-full justify-center items-center text-center font-semibold'>
-            Nulla posuere tellus non consectetur sodales.
+            Nulla posuere tellus non consectetur sodales 000000000.
           </p>
           <BarChartStackedBySign width={pageWidth} />
           <p className='text-lg text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo.</p>

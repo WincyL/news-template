@@ -3,43 +3,43 @@ import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Resp
 
 const data = [
   {
-    name: '2013',
+    Year: '2013',
     Buildings: 18,
   },
   {
-    name: '2014',
+    Year: '2014',
     Buildings: 18,
   },
   {
-    name: '2015',
+    Year: '2015',
     Buildings: 18,
   },
   {
-    name: '2016',
+    Year: '2016',
     Buildings: 18,
   },
   {
-    name: '2017',
+    Year: '2017',
     Buildings: 25,
   },
   {
-    name: '2019',
+    Year: '2019',
     Buildings: 25,
   },
   {
-    name: '2020',
+    Year: '2020',
     Buildings: 26,
   },
   {
-    name: '2021',
+    Year: '2021',
     Buildings: 26,
   },
   {
-    name: '2022',
+    Year: '2022',
     Buildings: 26,
   },
   {
-    name: '2023',
+    Year: '2023',
     Buildings: 27,
   },
 ];
@@ -123,7 +123,7 @@ export function BarChartStackedBySign01 (props: {width: number}) {
       }}
     >
       <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="name" tick={<CustomizedAxisTick />} interval={0} />
+      <XAxis dataKey="Year" tick={<CustomizedAxisTick />} interval={0} />
       <YAxis domain={[0, 30]} tickCount={15} interval={1} fontSize={20} />
       <Tooltip content={<CustomTooltip />}  />
       <Legend wrapperStyle={{paddingTop: 30}} />
