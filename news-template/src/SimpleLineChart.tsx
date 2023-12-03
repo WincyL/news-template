@@ -196,6 +196,35 @@ const data = [
     );
   };
 
+  const CustomTooltip: FunctionComponent<any> = (props: any) => {
+
+    const { active, payload, label } = props;
+  
+    if (active && payload && payload.length) {
+      return (
+        <div className=" flex flex-col justify-start items-starts rounded-md bg-[#ffffffb7] p-1">
+  
+            <p className=" font-bold">{label}</p>
+  
+            {
+                payload.map((pld: any) => (
+                    <div className=" flex justify-start items-center gap-5"
+                      style={{
+                        color: pld.color
+                      }}>
+                        <div>
+                          {pld.dataKey}:
+                        </div>
+                        <div>{pld.value < 0 ? pld.value * -1 : pld.value}</div>
+                    </div>
+                ))
+            }
+        </div>
+      );
+    }
+  
+    return null;
+  };
 
 export function SimpleLineChart(props: {width: number}){
 
@@ -203,14 +232,14 @@ export function SimpleLineChart(props: {width: number}){
     <LineChart width={props.width} height={300} data={data}
     margin={{
         top: 20,
-        right: 10,
+        right: 20,
         left: 20,
         bottom: 50
     }}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="Year" tick={<CustomizedAxisTick />} interval={0} />
         <YAxis />
-        <Tooltip/>
+        <Tooltip content={<CustomTooltip />}/>
         <Line type="monotone" dataKey="Telephone" stroke="#4A77C6"/> 
         <Line type="monotone" dataKey="Written" stroke="#ED7D31"/>
         <Line type="monotone" dataKey="Archives" stroke="#A5A5A5"/>
