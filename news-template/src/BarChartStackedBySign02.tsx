@@ -164,7 +164,7 @@ export function BarChartStackedBySign02 (props: {width: number}) {
       <Tooltip content={<CustomTooltip />}  />
       <Legend wrapperStyle={{paddingTop: 30}} />
       <ReferenceLine y={0} stroke="#000" />
-      <Bar dataKey="Buildings" fill="#7A87D4" stackId="stack" />
+      <Bar dataKey="Visitor" fill="#7A87D4" stackId="stack" />
     </BarChart>
   );
 }

@@ -1,4 +1,6 @@
 import { CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis } from "recharts";
+import { FunctionComponent } from 'react';
+
 
 const data = [
     {
@@ -174,6 +176,26 @@ const data = [
     }
   ];
 
+  export const CustomizedAxisTick: FunctionComponent<any> = (props: any) => {
+    const { x, y, payload } = props;
+  
+    return (
+      <g transform={`translate(${x},${y})`}>
+        <text
+          x={0}
+          y={0}
+          dy={16}
+          textAnchor="end"
+          fill="#666"
+          transform="rotate(-35)"
+          fontSize={20}
+        >
+          {payload.value}
+        </text>
+      </g>
+    );
+  };
+
 
 export function SimpleLineChart(props: {width: number}){
 
@@ -186,15 +208,15 @@ export function SimpleLineChart(props: {width: number}){
         bottom: 20
     }}>
         <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="Year" />
+        <XAxis dataKey="Year" tick={<CustomizedAxisTick />} interval={0} />
         <YAxis />
-        <Tooltip />
-        <Line type="monotone" dataKey="Telephone" stroke="#8884d8"/> 
-        <Line type="monotone" dataKey="Written" stroke="#8884d8"/>
-        <Line type="monotone" dataKey="Archives" stroke="#8884d8"/>
-        <Line type="monotone" dataKey="Tours" stroke="#8884d8"/>
-        <Line type="monotone" dataKey="Lectures" stroke="#8884d8"/>
-        <Line type="monotone" dataKey="Workshops" stroke="#8884d8"/>
+        <Tooltip/>
+        <Line type="monotone" dataKey="Telephone" stroke="#4A77C6"/> 
+        <Line type="monotone" dataKey="Written" stroke="#ED7D31"/>
+        <Line type="monotone" dataKey="Archives" stroke="#A5A5A5"/>
+        <Line type="monotone" dataKey="Tours" stroke="#FFBC00"/>
+        <Line type="monotone" dataKey="Lectures" stroke="#5295D3"/>
+        <Line type="monotone" dataKey="Workshops" stroke="#70AD47"/>
         
         {/* //strokeWidth={2}// */}
     </LineChart>
