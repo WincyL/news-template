@@ -123,7 +123,7 @@ export function BarChartStackedBySign01 (props: {width: number}) {
       }}
     >
       <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="name" tick={<CustomizedAxisTick />} interval={1} />
+      <XAxis dataKey="name" tick={<CustomizedAxisTick />} interval={0} />
       <YAxis domain={[0, 30]} tickCount={15} interval={1} fontSize={20} />
       <Tooltip content={<CustomTooltip />}  />
       <Legend wrapperStyle={{paddingTop: 30}} />
