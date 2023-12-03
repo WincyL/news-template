@@ -96,19 +96,21 @@ function App() {
         
         <BarChartStackedBySign01 width={pageWidth} />
 
-        <FadeInParagraph text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo. Nulla posuere tellus non consectetur sodales. Cras ut est laoreet, faucibus tellus et, tempus sem. Ut sit amet lacus cursus, tempor dolor a, congue orci. Integer tempus rhoncus rutrum. Fusce efficitur lacus quis diam bibendum egestas. Pellentesque eget eros id eros scelerisque faucibus non ac ligula.' />
-        <p>In 2023-2024, there has 8 applications have been approved for the Financial Assistance for Maintenance Scheme on Built Heritage. The government has provided a total of 1.45 million for maintenance works.</p>
+        <FadeInParagraph text='In 2023-2024, there has 8 applications have been approved for the Financial Assistance for Maintenance Scheme on Built Heritage. The government has provided a total of 1.45 million for maintenance works.' />
         <p>However, the funds currently provided by the government are only enough to deal with an average of 9 to 10 applications in a year, and there are a total of 8,803 heritage in Hong Kong. It will take a certain amount of time to protect all heritage. Therefore, the funds are still not able to bring efficiency to the restoration of cultural relics. Hong Kong still faces the challenge of insufficient resources.</p>
+        <p>However, public participation in oversight and planning remains limited. The Antiquities and Monuments Office does not adequately seek or consider public sentiment in its grading and assessment of buildings. It also needs to report on or explain delays and decisions properly.</p>
         
         <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>
           <p className='flex w-full justify-center items-center text-center font-semibold'>
-            Nulla posuere tellus non consectetur sodales 000000000.
+            Monthly Statistics on Educattional and Publicity Activities
           </p>
-          <BarChartStackedBySign width={pageWidth} />
-          <p className='text-lg text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo.</p>
+          <SimpleLineChart width={pageWidth} />
+          <p className='text-lg text-center'>Growing enthusiasm for heritage as shown by participation in local tours and enquiries indicates strong community interest that could aid preservation if harnessed through more transparent and inclusive public consultation initiatives.</p>
         </div>
         
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo. Nulla posuere tellus non consectetur sodales. Cras ut est laoreet, faucibus tellus et, tempus sem. Ut sit amet lacus cursus, tempor dolor a, congue orci.</p>
+        <BarChartStackedBySign01 width={pageWidth} />
+
+        <p>HAHA  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo. Nulla posuere tellus non consectetur sodales. Cras ut est laoreet, faucibus tellus et, tempus sem. Ut sit amet lacus cursus, tempor dolor a, congue orci.</p>
         <p>Integer tempus rhoncus rutrum. Fusce efficitur lacus quis diam bibendum egestas. Pellentesque eget eros id eros scelerisque faucibus non ac ligula.</p>
       
 
@@ -135,6 +137,7 @@ function App() {
             <SimplePieChart width={screenWidth < 768 ? pageWidth : pageWidth * 0.5} />
             <p className='text-lg text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo.</p>
           </div>
+
           <div className='w-full md:w-1/2 flex flex-col justify-start items-start text-center font-semibold'>
             <p className='flex w-full justify-center items-center text-center font-semibold'>
               Nulla posuere tellus non consectetur sodales.
