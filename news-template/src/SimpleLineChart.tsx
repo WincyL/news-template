@@ -231,7 +231,7 @@ export function SimpleLineChart(props: {width: number}){
     return (
     <LineChart width={props.width} height={300} data={data}
     margin={{
-        top: 20,
+        top: 80,
         right: 20,
         left: 20,
         bottom: 50

@@ -168,8 +168,6 @@ function App() {
         
         {/* <p>HAHA</p> */}
         
-        
-
       {/* <div className='w-full h-[10vh] relative mt-[20vh]'>
         <div className="bg-fixed w-full h-full bg-cover absolute opacity-30 -z-50"
           style={{
