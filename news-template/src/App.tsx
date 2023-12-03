@@ -42,33 +42,33 @@ function App() {
           style={{
             lineHeight: '1.8rem'
           }}>
-          <p className=' text-3xl md:text-5xl font-bold mb-5'>crying Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className=' text-3xl md:text-5xl font-bold mb-5'>Heritage Advocates Call for Stronger Protections as Historic Sites Continue to be Lost in Hong Kong</p>
 
           <div className=' w-full flex flex-col md:flex-row justify-between items-start'>
-            <p className=' text-gray-400 mb-5'>Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo.</p>
-            <p className=' text-gray-400 mb-5'>7 Nov, 2023</p>
+            <p className=' text-gray-400 mb-5'>Group 01</p>
+            <p className=' text-gray-400 mb-5'>03 Dec, 2023</p>
           </div>
 
           <div className='w-full flex justify-center items-center'>
-            <img src='./images/newspaper.png' className='contain'  />
+            <img src='./images/newsphoto.jpg' className='contain'  />
           </div>
-          <p className='text-lg text-center'>lacus lorem, bibendum at magna id, tempor convallis ipsum.</p>
+          <p className='text-lg text-center'>190 Nathan Road</p>
         </div>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur, mi eget tincidunt suscipit, tellus orci venenatis turpis, quis condimentum nibh lacus id justo. Nulla posuere tellus non consectetur sodales. Cras ut est laoreet, faucibus tellus et, tempus sem. Ut sit amet lacus cursus, tempor dolor a, congue orci. Integer tempus rhoncus rutrum. Fusce efficitur lacus quis diam bibendum egestas. Pellentesque eget eros id eros scelerisque faucibus non ac ligula.</p>
+        <p>Having been introduced six years ago, the "Hong Kong Tourism Industry Development Blueprint" 2.0 is expected to be released next year. The blueprint has always focused heavily on historic heritage tourism. There are, however, concerns about whether the current state of historical buildings in Hong Kong, the grading of cultural heritage buildings, and the direction of conservation efforts have garnered the love and respect they deserve.</p>
         
-        <p className=' text-3xl text-center w-full font-semibold'>Donec eu faucibus ante</p>
+        <p className=' text-3xl text-center w-full font-semibold'>?Sub title?</p>
         <div className=' w-full relative flex justify-center items-center'>
           <BottomDeco bottom={0} />
         </div>
 
-        <FadeInParagraph text="Ut eu vehicula massa, vitae interdum massa. Phasellus eget lorem sollicitudin, iaculis est vel, suscipit sapien. Nam eu fringilla urna. Nulla elementum, urna at cursus tempor, ex mi pulvinar odio, at condimentum sapien eros ut urna. Nam a massa tellus. Donec et eleifend arcu. Sed sit amet ante arcu. Nulla porta, elit lacinia pellentesque elementum, ex metus aliquam nibh, ut mattis urna diam non lacus. Maecenas vel pellentesque lacus. Sed tristique nisl vestibulum magna efficitur, ut efficitur erat suscipit. Nam vitae leo in erat vulputate vulputate eu ut massa. Sed ut tortor eu sem vehicula pharetra sed eu risus. Vivamus tempus metus at lectus ultrices, at rhoncus risus sodales. Proin finibus, leo vel condimentum posuere, risus odio sagittis sem, eu ornare nibh nibh sed nibh. Maecenas viverra diam ut massa malesuada, id gravida turpis pellentesque." />
+        <FadeInParagraph text="The priority of heritage tourism has led to the demolition or damage of many historical buildings, whether graded or ungraded, as well as the abandonment or failure of several projects. Although the government previously promised to balance conservation and development, it appears to have chosen development rather than understanding how important 'conservation' is to the entire community."/>
         
         <div className=' w-full relative flex justify-center items-center'>
           <LeftDeco left={-30} top={0} />
         </div>
 
-        <FadeInParagraph text="Sed lacus lorem, bibendum at magna id, tempor convallis ipsum. Proin convallis placerat sem. Nam et eros in ligula vehicula bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vehicula tellus a dolor consectetur maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis molestie placerat sollicitudin. Cras at urna consequat, varius massa vitae, faucibus sem. Sed auctor leo nulla, sed lacinia dui cursus et. Praesent quis ex blandit, hendrerit augue nec, rutrum sapien. Nullam et magna quis sem aliquet lobortis sit amet ac enim."/>
+        <FadeInParagraph text="The Hong Kong Government has proposed Revitalizing Historic Buildings Through Partnership Scheme since 2008. However, rapid urbanization, land scarcity, and economic development are impacting historic buildings."/>
         
 
         <div className=' w-full relative flex justify-center items-center'>
