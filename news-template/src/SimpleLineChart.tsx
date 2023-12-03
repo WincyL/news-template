@@ -202,10 +202,10 @@ export function SimpleLineChart(props: {width: number}){
     return (
     <LineChart width={props.width} height={300} data={data}
     margin={{
-        top: 10,
-        right: 0,
+        top: 20,
+        right: 10,
         left: 20,
-        bottom: 20
+        bottom: 50
     }}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="Year" tick={<CustomizedAxisTick />} interval={0} />
