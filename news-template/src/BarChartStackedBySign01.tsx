@@ -4,43 +4,43 @@ import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Resp
 const data = [
   {
     name: '2013',
-    Number: 18,
+    Numberofbuildings: 18,
   },
   {
     name: '2014',
-    Number: 18,
+    Numberofbuildings: 18,
   },
   {
     name: '2015',
-    Number: 18,
+    Numberofbuildings: 18,
   },
   {
     name: '2016',
-    Number: 18,
+    Numberofbuildings: 18,
   },
   {
     name: '2017',
-    Number: 25,
+    Numberofbuildings: 25,
   },
   {
     name: '2019',
-    Number: 25,
+    Numberofbuildings: 25,
   },
   {
     name: '2020',
-    Number: 26,
+    Numberofbuildings: 26,
   },
   {
     name: '2021',
-    Number: 26,
+    Numberofbuildings: 26,
   },
   {
     name: '2022',
-    Number: 26,
+    Numberofbuildings: 26,
   },
   {
     name: '2023',
-    Number: 27,
+    Numberofbuildings: 27,
   },
 ];
 
