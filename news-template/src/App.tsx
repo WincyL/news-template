@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import { BarChartStackedBySign} from './BarChartStackedBySign';
+import { BarChartStackedBySign01} from './BarChartStackedBySign01';
 import { SimpleLineChart } from './SimpleLineChart';
 import { SimplePieChart } from './SimplePieChart';
 import { FadeInParagraph } from './FadeInParagraph';
@@ -74,8 +75,11 @@ function App() {
         <div className=' w-full relative flex justify-center items-center'>
           <TopRightDeco right={-30} top={0} />
         </div>
-        <p className=' text-3xl text-left w-full font-semibold'>Donec eu faucibus ante</p>
-        
+        <p className=' text-3xl text-left w-full font-semibold'>Historic buildings demolished or substantially altered</p>
+
+        {/* <BarChartStackedBySign width={pageWidth} /> */}
+        <BarChartStackedBySign01 width={pageWidth} />
+
         <p>Nullam lectus elit, viverra at dignissim vitae, hendrerit mattis ligula. Praesent sit amet scelerisque lectus. Ut scelerisque sem leo, ac lobortis mauris viverra sit amet. Sed sed purus quis nisl auctor cursus. Ut convallis vel risus pharetra bibendum. Ut eu lectus eros. Suspendisse semper tellus nec lectus viverra aliquam. Etiam blandit lorem sit amet risus suscipit pretium. Ut mattis pellentesque nibh, a tempus nisi dapibus ut.</p>
         <p>Aenean suscipit eros eu placerat pulvinar. Pellentesque a porta orci, nec sollicitudin erat. Nullam sem odio, scelerisque sit amet metus eu, sagittis consectetur tellus. Morbi laoreet arcu et sapien semper semper. Aliquam accumsan nec justo in hendrerit. Maecenas eget augue sit amet dolor facilisis pulvinar. Ut cursus, nunc in cursus condimentum, ante justo luctus tellus, sed mattis libero tortor non arcu. Proin libero tortor, pulvinar at nulla a, faucibus auctor enim.</p>
         
