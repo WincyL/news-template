@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import { BarChartStackedBySign01} from './BarChartStackedBySign01';
+import { BarChartStackedBySign02} from './BarChartStackedBySign02';
 import { SimpleLineChart } from './SimpleLineChart';
 import { DataComposedChart } from './DataComposedCharts';
 import { FadeInParagraph } from './FadeInParagraph';
@@ -46,7 +47,7 @@ function App() {
 
           <div className=' w-full flex flex-col md:flex-row justify-between items-start'>
             <p className=' text-gray-400 mb-5'>Group 01</p>
-            <p className=' text-gray-400 mb-5'>03 Dec, 2023 time14:50</p>
+            <p className=' text-gray-400 mb-5'>03 Dec, 2023</p>
           </div>
 
           <div className='w-full flex justify-center items-center'>
@@ -111,7 +112,12 @@ function App() {
           <SimpleLineChart width={pageWidth} />
         </div>
         
-        <BarChartStackedBySign01 width={pageWidth} />
+        <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>
+          <p className='flex w-full justify-center items-center text-center font-semibold'>
+          Visitors Figures of Monuments Opened with Assistance from the Antiquities and Monuments Office within on year
+          </p>
+          <BarChartStackedBySign02 width={pageWidth} />
+        </div>
 
         <FadeInParagraph text='In March 2009, the Antiquities Advisory Board (AAB) announced that the assessment of 1,444 historic buildings in Hong Kong had been completed. As at the meeting on 7 September 2003, the grading of historic buildings was completed for 1,034 historic buildings. It has taken 14 years to complete about 70% of the work.' />    
         <p>Additionally, not having an overall conservation plan or 'blueprint' to guide strategic preservation and redevelopment decisions has led to an ad hoc approach and the loss of many important historical buildings.</p>
@@ -120,7 +126,7 @@ function App() {
         
         <p>HAHA OMG</p>
       
-        <div className=' w-full flex justify-center items-center'>
+        {/* <div className=' w-full flex justify-center items-center'>
           <div className='w-full lg:w-[70%] aspect-video'>
             <Splide
               options={{
@@ -154,27 +160,27 @@ function App() {
               </SplideSlide>
             </Splide>
           </div>
-        </div>
+        </div> */}
         
-        <p>Sed lacus lorem, bibendum at magna id, tempor convallis ipsum. Proin convallis placerat sem. Nam et eros in ligula vehicula bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vehicula tellus a dolor consectetur maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis molestie placerat sollicitudin. Cras at urna consequat, varius massa vitae, faucibus sem. Sed auctor leo nulla, sed lacinia dui cursus et. Praesent quis ex blandit, hendrerit augue nec, rutrum sapien. Nullam et magna quis sem aliquet lobortis sit amet ac enim.</p>
+        <p>HAHA</p>
         
         <div className=' w-full relative flex justify-center items-center'>
           <RightDeco right={-30} top={0} />
         </div>
-        <p>Nullam lectus elit, viverra at dignissim vitae, hendrerit mattis ligula. Praesent sit amet scelerisque lectus. Ut scelerisque sem leo, ac lobortis mauris viverra sit amet. Sed sed purus quis nisl auctor cursus. Ut convallis vel risus pharetra bibendum. Ut eu lectus eros. Suspendisse semper tellus nec lectus viverra aliquam. Etiam blandit lorem sit amet risus suscipit pretium. Ut mattis pellentesque nibh, a tempus nisi dapibus ut.</p>
-        <p>Aenean suscipit eros eu placerat pulvinar. Pellentesque a porta orci, nec sollicitudin erat. Nullam sem odio, scelerisque sit amet metus eu, sagittis consectetur tellus. Morbi laoreet arcu et sapien semper semper. Aliquam accumsan nec justo in hendrerit. Maecenas eget augue sit amet dolor facilisis pulvinar. Ut cursus, nunc in cursus condimentum, ante justo luctus tellus, sed mattis libero tortor non arcu. Proin libero tortor, pulvinar at nulla a, faucibus auctor enim.</p>
+        <p>HAHA</p>
+        <p>HAHA</p>
         <div className=' w-full relative flex justify-center items-center'>
           <BottomDeco bottom={0} />
         </div>
       </div>
 
-      <div className='w-full h-[10vh] relative mt-[20vh]'>
+      {/* <div className='w-full h-[10vh] relative mt-[20vh]'>
         <div className="bg-fixed w-full h-full bg-cover absolute opacity-30 -z-50"
           style={{
             backgroundImage: 'url(./images/newspaper.jpeg)'
           }}
         />
-      </div>
+      </div> */}
       <div className=' w-full h-[30vh] bg-zinc-900 flex justify-center items-center text-white font-mono'> 
           <p>End of Reading</p>
       </div>
