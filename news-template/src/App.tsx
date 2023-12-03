@@ -75,7 +75,7 @@ function App() {
         <div className=' w-full relative flex justify-center items-center'>
           <TopRightDeco right={-30} top={0} />
         </div>
-        <p className=' text-3xl text-left w-full font-semibold'>Historic buildings demolished or substantially altered</p>
+        <p className=' text-3xl text-left w-full font-semibold'>Historic buildings demolished or substantially altered </p>
 
         {/* <BarChartStackedBySign width={pageWidth} /> */}
         <BarChartStackedBySign01 width={pageWidth} />
