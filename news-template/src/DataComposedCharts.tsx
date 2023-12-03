@@ -127,12 +127,16 @@ export function DataComposedChart(props: {width: number}) {
     >
       <CartesianGrid stroke="#f5f5f5" />
       <XAxis dataKey="name" tick={<CustomizedAxisTick />} interval={0} />
-      <YAxis tickFormatter={DataFormater} domain={[0, 4800000]} tickCount={15} interval={1} fontSize={20} />
-      <YAxis domain={[0, 20]} tickCount={15} interval={0} fontSize={15} />
+      <YAxis yAxisId="left-axis" tickFormatter={DataFormater} domain={[0, 4800000]} tickCount={15} interval={1} fontSize={20} />
+      <YAxis yAxisId="right-axis"
+             orientation="right"
+             domain={[0, 20]} tickCount={15} interval={0} fontSize={15} />
       <Tooltip content={<CustomTooltip />} />
       <Legend wrapperStyle={{paddingTop: 30}} />
-      <Bar dataKey="TotalGrantApproved" barSize={20} fill="#30B0F0" />
-      <Line type="monotone" dataKey="TotalApplicationApproved" stroke="#4328E7" />
+      <Bar yAxisId="left-axis" 
+           dataKey="TotalGrantApproved" barSize={20} fill="#30B0F0" />
+      <Line yAxisId="right-axis"
+            type="monotone" dataKey="TotalApplicationApproved" stroke="#4328E7" />
     </ComposedChart>
   );
 }
