@@ -1,4 +1,3 @@
-import "./styles.css";
 import { FunctionComponent } from 'react';
 import {
   ComposedChart,
