@@ -12,69 +12,76 @@ import {
 
 const data = [
   {
-    name: "Page A",
-    uv: 590,
-    pv: 800,
-    amt: 1400,
-    cnt: 490
+    name: "2017-2018",
+    TotalGrantApproved: 6809025 ,
+    TotalApplicationApproved: 4
   },
   {
-    name: "Page B",
-    uv: 868,
-    pv: 967,
-    amt: 1506,
-    cnt: 590
+    name: "2018-2019",
+    TotalGrantApproved: 12836945 ,
+    TotalApplicationApproved: 7,
   },
   {
-    name: "Page C",
-    uv: 1397,
-    pv: 1098,
-    amt: 989,
-    cnt: 350
+    name: "2019-2020",
+    TotalGrantApproved: 19489236 ,
+    TotalApplicationApproved: 13
   },
   {
-    name: "Page D",
-    uv: 1480,
-    pv: 1200,
-    amt: 1228,
-    cnt: 480
+    name:"2020-2021",
+    TotalGrantApproved: 13567369 ,
+    TotalApplicationApproved: 10
   },
   {
-    name: "Page E",
-    uv: 1520,
-    pv: 1108,
-    amt: 1100,
-    cnt: 460
+    name: "2021-2022",
+    TotalGrantApproved: 22176084,
+    TotalApplicationApproved: 13
   },
   {
-    name: "Page F",
-    uv: 1400,
-    pv: 680,
-    amt: 1700,
-    cnt: 380
+    name: "2022-2023",
+    TotalGrantApproved: 17117402 ,
+    TotalApplicationApproved: 10
+  },
+  {
+    name: "2023-2024",
+    TotalGrantApproved: 14529830,
+    TotalApplicationApproved: 8
   }
 ];
+
+const DataFormater = (number: number) => {
+    if(number > 1000000000){
+      return (number/1000000000).toString() + 'B';
+    }else if(number > 1000000){
+      return (number/1000000).toString() + 'M';
+    }else if(number > 1000){
+      return (number/1000).toString() + 'K';
+    }else{
+      return number.toString();
+    }
+  }
 
 export function DataComposedChart(props: {width: number}) {
   return (
     <ComposedChart
-      width={500}
-      height={400}
-      data={data}
-      margin={{
-        top: 20,
-        right: 20,
-        bottom: 20,
-        left: 20
+    width={props.width}
+    barCategoryGap={10}
+    height={600}
+    data={data}
+    stackOffset="sign"
+    margin={{
+      top: 10,
+      right: 0,
+      left: 20,
+      bottom: 20
       }}
     >
       <CartesianGrid stroke="#f5f5f5" />
       <XAxis dataKey="name" scale="band" />
-      <YAxis />
+      <YAxis tickFormatter={DataFormater} domain={[0, 4800000]} tickCount={15} interval={1} fontSize={20} />
       <Tooltip />
       <Legend />
-      <Bar dataKey="uv" barSize={20} fill="#413ea0" />
-      <Line type="monotone" dataKey="uv" stroke="#ff7300" />
+      <Bar dataKey="TotalGrantApproved" barSize={20} fill="#30B0F0" />
+      <Line type="monotone" dataKey="TotalApplicationApproved" stroke="#4328E7" />
     </ComposedChart>
   );
 }
