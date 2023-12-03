@@ -47,7 +47,7 @@ function App() {
 
           <div className=' w-full flex flex-col md:flex-row justify-between items-start'>
             <p className=' text-gray-400 mb-5'>Group 01</p>
-            <p className=' text-gray-400 mb-5'>03 Dec, 2023</p>
+            <p className=' text-gray-400 mb-5'>03 Dec, 2023 time14:50</p>
           </div>
 
           <div className='w-full flex justify-center items-center'>
