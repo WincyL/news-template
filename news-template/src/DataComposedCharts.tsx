@@ -60,6 +60,56 @@ const DataFormater = (number: number) => {
     }
   }
 
+  export const CustomizedAxisTick: FunctionComponent<any> = (props: any) => {
+    const { x, y, payload } = props;
+  
+    return (
+      <g transform={`translate(${x},${y})`}>
+        <text
+          x={0}
+          y={0}
+          dy={16}
+          textAnchor="end"
+          fill="#666"
+          transform="rotate(-35)"
+          fontSize={20}
+        >
+          {payload.value}
+        </text>
+      </g>
+    );
+  };
+
+  const CustomTooltip: FunctionComponent<any> = (props: any) => {
+
+    const { active, payload, label } = props;
+  
+    if (active && payload && payload.length) {
+      return (
+        <div className=" flex flex-col justify-start items-starts rounded-md bg-[#ffffffb7] p-1">
+  
+            <p className=" font-bold">{label}</p>
+  
+            {
+                payload.map((pld: any) => (
+                    <div className=" flex justify-start items-center gap-5"
+                      style={{
+                        color: pld.color
+                      }}>
+                        <div>
+                          {pld.dataKey}:
+                        </div>
+                        <div>{pld.value < 0 ? pld.value * -1 : pld.value}</div>
+                    </div>
+                ))
+            }
+        </div>
+      );
+    }
+  
+    return null;
+  };
+
 export function DataComposedChart(props: {width: number}) {
   return (
     <ComposedChart
@@ -76,10 +126,10 @@ export function DataComposedChart(props: {width: number}) {
       }}
     >
       <CartesianGrid stroke="#f5f5f5" />
-      <XAxis dataKey="name" scale="band" />
+      <XAxis dataKey="name" tick={<CustomizedAxisTick />} interval={1} />
       <YAxis tickFormatter={DataFormater} domain={[0, 4800000]} tickCount={15} interval={1} fontSize={20} />
-      <Tooltip />
-      <Legend />
+      <Tooltip content={<CustomTooltip />} />
+      <Legend wrapperStyle={{paddingTop: 30}} />
       <Bar dataKey="TotalGrantApproved" barSize={20} fill="#30B0F0" />
       <Line type="monotone" dataKey="TotalApplicationApproved" stroke="#4328E7" />
     </ComposedChart>
