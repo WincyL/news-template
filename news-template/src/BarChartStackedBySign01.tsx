@@ -3,44 +3,64 @@ import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Resp
 
 const data = [
   {
-    Year: '2013',
-    Buildings: 18,
+    Year: '2008-2009 ',
+    Buildings: 1,
   },
   {
-    Year: '2014',
-    Buildings: 18,
+    Year: '2009-2010',
+    Buildings: 7,
   },
   {
-    Year: '2015',
-    Buildings: 18,
+    Year: '2010-2011',
+    Buildings: 1,
   },
   {
-    Year: '2016',
-    Buildings: 18,
+    Year: '2011-2012',
+    Buildings: 10,
   },
   {
-    Year: '2017',
-    Buildings: 25,
+    Year: '2012-2013',
+    Buildings: 7,
   },
   {
-    Year: '2019',
-    Buildings: 25,
+    Year: '2013-2014',
+    Buildings: 10,
   },
   {
-    Year: '2020',
-    Buildings: 26,
+    Year: '2014-2015',
+    Buildings: 9,
   },
   {
-    Year: '2021',
-    Buildings: 26,
+    Year: '2015-2016',
+    Buildings: 4,
   },
   {
-    Year: '2022',
-    Buildings: 26,
+    Year: '2017-2018',
+    Buildings: 4,
   },
   {
-    Year: '2023',
-    Buildings: 27,
+    Year: '2018-2019',
+    Buildings: 7,
+  },
+  {
+    Year: '2019-2020',
+    Buildings: 13,
+  },
+  {
+    Year: '2021-2022',
+    Buildings: 10,
+  },
+  {
+    Year: '2018-2019',
+    Buildings: 13,
+  },
+  {
+    Year: '2022-2023',
+    Buildings: 10,
+  },
+  {
+    Year: '2023-2024',
+    Buildings: 8,
   },
 ];
 
@@ -124,7 +144,7 @@ export function BarChartStackedBySign01 (props: {width: number}) {
     >
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis dataKey="Year" tick={<CustomizedAxisTick />} interval={0} />
-      <YAxis domain={[0, 30]} tickCount={15} interval={1} fontSize={20} />
+      <YAxis domain={[0, 20]} tickCount={15} interval={1} fontSize={20} />
       <Tooltip content={<CustomTooltip />}  />
       <Legend wrapperStyle={{paddingTop: 30}} />
       <ReferenceLine y={0} stroke="#000" />

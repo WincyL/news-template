@@ -111,6 +111,7 @@ function App() {
             Monthly Statistics on Educattional and Publicity Activities
           </p>
           <SimpleLineChart width={pageWidth} />
+          <BarChartStackedBySign01 width={pageWidth} />
         </div>
         
         <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>
