@@ -4,63 +4,63 @@ import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Resp
 const data = [
   {
     Year: '2008-2009 ',
-    Numbers: 1,
+    Case: 1,
   },
   {
     Year: '2009-2010',
-    Numbers: 7,
+    Case: 7,
   },
   {
     Year: '2010-2011',
-    Numbers: 1,
+    Case: 1,
   },
   {
     Year: '2011-2012',
-    Numbers: 10,
+    Case: 10,
   },
   {
     Year: '2012-2013',
-    Numbers: 7,
+    Case: 7,
   },
   {
     Year: '2013-2014',
-    Numbers: 10,
+    Case: 10,
   },
   {
     Year: '2014-2015',
-    Numbers: 9,
+    Case: 9,
   },
   {
     Year: '2015-2016',
-    Numbers: 4,
+    Case: 4,
   },
   {
     Year: '2017-2018',
-    Numbers: 4,
+    Case: 4,
   },
   {
     Year: '2018-2019',
-    Numbers: 7,
+    Case: 7,
   },
   {
     Year: '2019-2020',
-    Numbers: 13,
+    Case: 13,
   },
   {
     Year: '2021-2022',
-    Numbers: 10,
+    Case: 10,
   },
   {
     Year: '2018-2019',
-    Numbers: 13,
+    Case: 13,
   },
   {
     Year: '2022-2023',
-    Numbers: 10,
+    Case: 10,
   },
   {
     Year: '2023-2024',
-    Numbers: 8,
+    Case: 8,
   },
 ];
 
@@ -148,7 +148,7 @@ export function BarChartStackedBySign01 (props: {width: number}) {
       <Tooltip content={<CustomTooltip />}  />
       <Legend wrapperStyle={{paddingTop: 30}} />
       <ReferenceLine y={0} stroke="#000" />
-      <Bar dataKey="Numbers" fill="#7A87D4" stackId="stack" />
+      <Bar dataKey="Case" fill="#7A87D4" stackId="stack" />
     </BarChart>
   );
 }
