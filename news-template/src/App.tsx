@@ -177,7 +177,7 @@ function App() {
         />
       </div> */}
       <div>
-      <iframe src="https://www.google.com/maps/d/embed?mid=1wUFuJTwSPfZhUIyZHFInTxQbRCajD1yT&ehbc=2E312F" width="640" height="480"></iframe>
+      <iframe src="https://www.google.com/maps/d/embed?mid=1wUFuJTwSPfZhUIyZHFInTxQbRCajD1yT&ehbc=2E312F" width={pageWidth} height="480"></iframe>
       </div>
       <div className=' w-full h-[30vh] bg-zinc-900 flex justify-center items-center text-white font-mono'> 
           <p>End of Reading</p>
