@@ -137,14 +137,14 @@ export function BarChartStackedBySign01 (props: {width: number}) {
       stackOffset="sign"
       margin={{
         top: 10,
-        right: 0,
+        right: 10,
         left: 20,
         bottom: 20
       }}
     >
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis dataKey="Year" tick={<CustomizedAxisTick />} interval={0} />
-      <YAxis domain={[0, 20]} tickCount={15} interval={1} fontSize={20} />
+      <YAxis domain={[0, 15]} tickCount={15} interval={1} fontSize={20} />
       <Tooltip content={<CustomTooltip />}  />
       <Legend wrapperStyle={{paddingTop: 30}} />
       <ReferenceLine y={0} stroke="#000" />
