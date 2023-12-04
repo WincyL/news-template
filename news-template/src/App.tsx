@@ -51,49 +51,76 @@ function App() {
             <p className=' text-gray-400 mb-5'>03 Dec, 2023</p>
           </div>
 
-          <div className='w-full flex justify-center items-center'>
-            <img src='./images/newsphoto.jpg' className='contain'  />
-          </div>
-          <p className='text-lg text-center'>190 Nathan Road</p>
-        </div>
-
-        <p>Having been introduced six years ago, the "Hong Kong Tourism Industry Development Blueprint" 2.0 is expected to be released next year. The blueprint has always focused heavily on historic heritage tourism. There are, however, concerns about whether the current state of historical buildings in Hong Kong, the grading of cultural heritage buildings, and the direction of conservation efforts have garnered the love and respect they deserve.</p>
-        
-        <p className=' text-3xl text-center w-full font-semibold'>?Sub title?</p>
-        <div className=' w-full relative flex justify-center items-center'>
+          <div className=' w-full relative flex justify-center items-center'>
           <BottomDeco bottom={0} />
         </div>
+        
+        <p>Once used to carry out underground intelligence work against the Japanese military during the Second World War, an 85-year-old building in Tsim Sha Tsui is now at risk of being demolished despite being well-maintained and loved by the public. </p>
 
-        <FadeInParagraph text="The priority of heritage tourism has led to the demolition or damage of many historical buildings, whether graded or ungraded, as well as the abandonment or failure of several projects. Although the government previously promised to balance conservation and development, it appears to have chosen development rather than understanding how important 'conservation' is to the entire community."/>
+        <FadeInParagraph text="The city’s only remaining pre-war western-style structure was classified as a grade three building in 2018, meaning it has some merit but did not qualify to be considered as a possible monument. Only those with grade one accreditation are considered with outstanding merit and warrant every effort to be preserved."/>
         
         <div className=' w-full relative flex justify-center items-center'>
           <LeftDeco left={-30} top={0} />
         </div>
 
-        <FadeInParagraph text="The Hong Kong Government has proposed Revitalizing Historic Buildings Through Partnership Scheme since 2008. However, rapid urbanization, land scarcity, and economic development are impacting historic buildings."/>
+        <FadeInParagraph text="“The Antiquities and Monuments Office seldom receives reports, does not pay attention to our opinions and even ignores them,” said Chan Kwok Ho, founder of Hong Kong Heritage, a non-government organization dedicated to preserving historic buildings."/>
         
+        <div className='w-full flex justify-center items-center'>
+            <img src='./images/newsphoto.jpg' className='contain'  />
+          </div>
+          <p className='text-lg text-center'>The four-story shophouse at 190 Nathan Road is Hong Kong’s only remaining pre-World War II European-style building. Photo by Silver Cheung</p>
+        </div>
 
         <div className=' w-full relative flex justify-center items-center'>
           <TopRightDeco right={-30} top={0} />
         </div>
+        <p>The historic structure is among approximately 8,800 buildings which heritage advocates like Chan are calling for stronger protection.</p>
+        <p>As of 2023, 27 structures have been demolished or substantially altered, according to the Commissioner for Heritage’s Office. In 2017 alone, seven buildings were brought down.</p>
+
         <p className=' text-3xl text-left w-full font-semibold'>Historic buildings demolished or substantially altered</p>
 
         <SimpleLineChart02 width={pageWidth} />
+        <p>Source: Commissioner for Heritage’s Office</p>
 
-        <p>In 2023, there had 27 historic buildings are demolished or significantly altered. Also, the Government's desire to integrate urban development with heritage conservation. </p>
-        <p>190 Nathan Road is the only pre-war western style building in Tsim Sha Tsui and has now been transformed into a LEGO store. “Hong Kong Heritage” founder Chan Kwok Ho mentioned that “Urban Studies Institute” and “Walk in Hong Kong” submitted a detail-report to the Antiquities and Monuments Office required to be re-rated 190 Nathan Road as a Grade 1 historic building. However, the application was rejected by the Office. This action made Chan believed Antiquities and Monuments Office often ignored public opinion and sentiment. It also lacked public participation in the process of cultural preservation, and gradually commercialized many buildings. Also loses the original memory and value of the community.</p>
+        <p>Despite the government’s effort to develop historic heritage tourism, as announced in the Tourism Industry Development Blueprint 2.0 which is expected to be released next year, critics say monuments like the structure at 190 Nathan Road still don’t receive the appreciation they deserve.</p>
         
         <div className=' w-full relative flex justify-center items-center'>
           <LeftDeco left={-30} top={0} />
         </div>
-        <p>The Hong Kong Government has provided additional funding of HK$1 billion for the Heritage Conservation Building Fund in the Appropriation Bill 2022. Second, The Development Bureau established the Commissioner for Heritage's Office on 25 April 2008. It offers Financial Assistance for the Maintenance Scheme on Built Heritage for the organization those are non-profit-making organizations. Each application will receive a subsidy of up to HK$2 million for heritage maintenance works.</p>
+        <p>“People think that old monuments are in expensive locations and should be demolished for new buildings,” said Chan, emphasizing that rapid urbanization, land scarcity, and economic development are factors that adversely impact the preservation of historic structures. A lack of public participation in the process of heritage preservation and commercialisation is one of the major issues advocates call for change.</p>
+        <p>“The Antiquities Advisory Board and Antiquities and Monuments Office are mysterious, no one can observe their meetings that decide the fate of the historic structures,” said Chan, He adds that the growing enthusiasm for heritage preservation, as evidenced by the increased participation in local tours and the number of inquiries related to heritage could potentially help in the preservation efforts.</p>
 
-        {/* <div className='w-full flex justify-center items-center'>
-          <video className='w-full' controls>
-            <source src="./images/cute-cat.mp4" type="video/mp4"/>
-            our browser does not support the video tag.
-          </video>
-        </div> */}
+        <div className=' w-full relative flex justify-center items-center'>
+          <LeftDeco left={-30} top={0} />
+        </div>
+        
+        <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>
+          <p className='flex w-full justify-center items-center text-center font-semibold'>
+            Monthly Statistics on Educattional and Publicity Activities
+          </p>
+          <SimpleLineChart width={pageWidth} />
+          <p>The upward trend in the number of telephone and written enquiries, along with historic guided tours being held. Source: Antiquities Advisory Board </p>
+        </div>
+
+        <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>
+          <p className='flex w-full justify-center items-center text-center font-semibold'>
+          Visitors Figures of Monuments Opened with Assistance from the Antiquities and Monuments Office within one year
+          </p>
+          <BarChartStackedBySign02 width={pageWidth} />
+          <p>An increase in the number of visitors to 30 historic monuments opened with assistance from the government. Source: Antiquities Advisory Board</p>
+        </div>
+
+        <p>The key issues Chan raises with Hong Kong's legal framework and policies for cultural heritage preservation include that the overseeing bodies have outdated structures, a slow assessment process, and a lack of expertise in certain important fields like archaeology.</p>
+        <p>“Experts of the Antiquities Advisory Board and Antiquities and Monuments Office include architects and businessmen, but there is no expert with actual archaeological background to help, making it difficult to examine, process and conserve the monuments,” Chan said.</p>
+        <p>“The Antiquities Advisory Board meets four times a year, and each year it handles a net of 100-200 buildings, but in Hong Kong, there are a total of 8,803 buildings. How many years will it take?”</p>
+        <p>In March 2009, the Antiquities Advisory Board announced that the assessment of 1,444 historic buildings in Hong Kong had been completed. As at a meeting on 7 September 2023, the grading of historic buildings was completed for 1,034 historic buildings, meaning it took 14 years to complete about 70% of the work.</p>
+        
+        <iframe src="https://www.google.com/maps/d/embed?mid=1wUFuJTwSPfZhUIyZHFInTxQbRCajD1yT&ehbc=2E312F" width={pageWidth} height="480"></iframe>
+        <p>Map showing 8,803 historic buildings in Hong Kong. Source: Liber Research Community</p>
+        
+        <p>To protect the buildings, funding is necessary. Since 2008, an average of 7.6 structures have been approved to receive the subsidy from the Financial Assistance for the Maintenance Scheme on Built Heritage, a program by the government. They can be granted up to HK$2 million for heritage maintenance works.</p>
+        <p>But with over 8,800 historic buildings all across the city, the current funding process may take too long to restore the cultural relics. </p>
+
 
         <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>
           <p className='flex w-full justify-center items-center text-center font-semibold'>
@@ -102,39 +129,13 @@ function App() {
           <DataComposedChart width={pageWidth} />
         </div>
         
-        <FadeInParagraph text='In 2023-2024, there has 8 applications have been approved for the Financial Assistance for Maintenance Scheme on Built Heritage. The government has provided a total of 1.45 million for maintenance works.' />
-        <p>However, the funds currently provided by the government are only enough to deal with an average of 9 to 10 applications in a year, and there are a total of 8,803 heritage in Hong Kong. It will take a certain amount of time to protect all heritage. Therefore, the funds are still not able to bring efficiency to the restoration of cultural relics. Hong Kong still faces the challenge of insufficient resources.</p>
-        <p>However, public participation in oversight and planning remains limited. The Antiquities and Monuments Office does not adequately seek or consider public sentiment in its grading and assessment of buildings. It also needs to report on or explain delays and decisions properly.</p>
+        <FadeInParagraph text='Chan said the government must develop a blueprint to guide strategic preservation and redevelopment projects to avoid ad hoc approaches and thus the loss of important historical buildings. ' />
         
-        <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>
-          <p className='flex w-full justify-center items-center text-center font-semibold'>
-            Monthly Statistics on Educattional and Publicity Activities
-          </p>
-          <SimpleLineChart width={pageWidth} />
-        </div>
-
-        {/* <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>
-          <p className='flex w-full justify-center items-center text-center font-semibold'>
-            Total Number of Approved Fundings
-          </p>
-          <BarChartStackedBySign01 width={pageWidth} />
-        </div> */}
-      
-        
-        <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>
-          <p className='flex w-full justify-center items-center text-center font-semibold'>
-          Visitors Figures of Monuments Opened with Assistance from the Antiquities and Monuments Office within one year
-          </p>
-          <BarChartStackedBySign02 width={pageWidth} />
-        </div>
-
-        <FadeInParagraph text='In March 2009, the Antiquities Advisory Board (AAB) announced that the assessment of 1,444 historic buildings in Hong Kong had been completed. As at the meeting on 7 September 2003, the grading of historic buildings was completed for 1,034 historic buildings. It has taken 14 years to complete about 70% of the work.' />    
+        <FadeInParagraph text='“Revising the composition of advisory boards, expediting grading reviews, and including public opinion in the decision-making process are what they have to do,” said Chan. ' />    
         <div className=' w-full relative flex justify-center items-center'>
           <RightDeco right={-30} top={0} />
         </div>
-        <p>Additionally, not having an overall conservation plan or 'blueprint' to guide strategic preservation and redevelopment decisions has led to an ad hoc approach and the loss of many important historical buildings.</p>
-        <p>Reforming aged legislation and adapting systems concerning international best practices, as seen in measures taken in Singapore, could strengthen Hong Kong's preservation efforts. This may involve revising the composition of advisory boards, expediting grading reviews, developing professional expertise, and implementing a long-term strategy and guidelines to balance conservation and development needs. Improving coordination, transparency and public participation in related decision-making would also help address current gaps between policy and community expectations.</p>
-        <iframe src="https://www.google.com/maps/d/embed?mid=1wUFuJTwSPfZhUIyZHFInTxQbRCajD1yT&ehbc=2E312F" width={pageWidth} height="480"></iframe>
+        <p>“Those buildings have architectural merit and authenticity. They are worth preserving,” he added. </p>
         
         <div className=' w-full relative flex justify-center items-center'>
           <BottomDeco bottom={0} />
@@ -186,6 +187,18 @@ function App() {
           }}
         />
       </div> */}
+      {/* <div className='w-full flex justify-center items-center'>
+          <video className='w-full' controls>
+            <source src="./images/cute-cat.mp4" type="video/mp4"/>
+            our browser does not support the video tag.
+          </video>
+        </div> */}
+        {/* <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>
+          <p className='flex w-full justify-center items-center text-center font-semibold'>
+            Total Number of Approved Fundings
+          </p>
+          <BarChartStackedBySign01 width={pageWidth} />
+        </div> */}
       <div className=' w-full h-[30vh] bg-zinc-900 flex justify-center items-center text-white font-mono'> 
           <p>End of Reading</p>
       </div>
