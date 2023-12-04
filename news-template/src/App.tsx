@@ -126,8 +126,9 @@ function App() {
         </div>
         <p>Additionally, not having an overall conservation plan or 'blueprint' to guide strategic preservation and redevelopment decisions has led to an ad hoc approach and the loss of many important historical buildings.</p>
         <p>Reforming aged legislation and adapting systems concerning international best practices, as seen in measures taken in Singapore, could strengthen Hong Kong's preservation efforts. This may involve revising the composition of advisory boards, expediting grading reviews, developing professional expertise, and implementing a long-term strategy and guidelines to balance conservation and development needs. Improving coordination, transparency and public participation in related decision-making would also help address current gaps between policy and community expectations.</p>
-        <div className=' w-full relative flex justify-center items-center'>
         <iframe src="https://www.google.com/maps/d/embed?mid=1wUFuJTwSPfZhUIyZHFInTxQbRCajD1yT&ehbc=2E312F" width={pageWidth} height="480"></iframe>
+        
+        <div className=' w-full relative flex justify-center items-center'>
           <BottomDeco bottom={0} />
         </div>
       </div>
