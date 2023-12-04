@@ -52,37 +52,37 @@ const data = [
     TotalApplicationApproved: 4
   },
   {
-    name: "2017-2018",
+    Year: "2017-2018",
     TotalGrantApproved: 4809025 ,
     TotalApplicationApproved: 4
   },
   {
-    name: "2018-2019",
+    Year: "2018-2019",
     TotalGrantApproved: 12836945 ,
     TotalApplicationApproved: 7,
   },
   {
-    name: "2019-2020",
+    Year: "2019-2020",
     TotalGrantApproved: 19489236 ,
     TotalApplicationApproved: 13
   },
   {
-    name:"2020-2021",
+    Year:"2020-2021",
     TotalGrantApproved: 13567369 ,
     TotalApplicationApproved: 10
   },
   {
-    name: "2021-2022",
+    Year: "2021-2022",
     TotalGrantApproved: 22176084,
     TotalApplicationApproved: 13
   },
   {
-    name: "2022-2023",
+    Year: "2022-2023",
     TotalGrantApproved: 17117402 ,
     TotalApplicationApproved: 10
   },
   {
-    name: "2023-2024",
+    Year: "2023-2024",
     TotalGrantApproved: 14529830,
     TotalApplicationApproved: 8
   }
@@ -166,7 +166,7 @@ export function DataComposedChart(props: {width: number}) {
       }}
     >
       <CartesianGrid stroke="#f5f5f5" />
-      <XAxis dataKey="name" tick={<CustomizedAxisTick />} interval={0} />
+      <XAxis dataKey="Year" tick={<CustomizedAxisTick />} interval={0} />
       <YAxis yAxisId="left-axis" tickFormatter={DataFormater} domain={[0, 4800000]} tickCount={15} interval={1} fontSize={20} />
       <YAxis yAxisId="right-axis"
              orientation="right"
