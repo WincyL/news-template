@@ -4,6 +4,7 @@ import '@splidejs/react-splide/css';
 import { BarChartStackedBySign01} from './BarChartStackedBySign01';
 import { BarChartStackedBySign02} from './BarChartStackedBySign02';
 import { SimpleLineChart } from './SimpleLineChart';
+import { SimpleLineChart02 } from './SimpleLineChart02';
 import { DataComposedChart } from './DataComposedCharts';
 import { FadeInParagraph } from './FadeInParagraph';
 import { BottomDeco, BottomRightDeco, LeftDeco, RightDeco, TopRightDeco } from './utils/LineDeco';
@@ -77,7 +78,7 @@ function App() {
         </div>
         <p className=' text-3xl text-left w-full font-semibold'>Historic buildings demolished or substantially altered</p>
 
-        <BarChartStackedBySign01 width={pageWidth} />
+        <SimpleLineChart02 width={pageWidth} />
 
         <p>In 2023, there had 27 historic buildings are demolished or significantly altered. Also, the Government's desire to integrate urban development with heritage conservation. </p>
         <p>190 Nathan Road is the only pre-war western style building in Tsim Sha Tsui and has now been transformed into a LEGO store. “Hong Kong Heritage” founder Chan Kwok Ho mentioned that “Urban Studies Institute” and “Walk in Hong Kong” submitted a detail-report to the Antiquities and Monuments Office required to be re-rated 190 Nathan Road as a Grade 1 historic building. However, the application was rejected by the Office. This action made Chan believed Antiquities and Monuments Office often ignored public opinion and sentiment. It also lacked public participation in the process of cultural preservation, and gradually commercialized many buildings. Also loses the original memory and value of the community.</p>
