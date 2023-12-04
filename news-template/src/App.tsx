@@ -115,7 +115,7 @@ function App() {
         
         <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>
           <p className='flex w-full justify-center items-center text-center font-semibold'>
-          Visitors Figures of Monuments Opened with Assistance from the Antiquities and Monuments Office within on year
+          Visitors Figures of Monuments Opened with Assistance from the Antiquities and Monuments Office within one year
           </p>
           <BarChartStackedBySign02 width={pageWidth} />
         </div>
@@ -178,7 +178,6 @@ function App() {
           }}
         />
       </div> */}
-
       <div className=' w-full h-[30vh] bg-zinc-900 flex justify-center items-center text-white font-mono'> 
           <p>End of Reading</p>
       </div>
