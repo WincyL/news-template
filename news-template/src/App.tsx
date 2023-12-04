@@ -113,12 +113,12 @@ function App() {
           <SimpleLineChart width={pageWidth} />
         </div>
 
-        <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>
+        {/* <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>
           <p className='flex w-full justify-center items-center text-center font-semibold'>
             Total Number of Approved Fundings
           </p>
           <BarChartStackedBySign01 width={pageWidth} />
-        </div>
+        </div> */}
       
         
         <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>

@@ -12,8 +12,48 @@ import {
 
 const data = [
   {
+    Year: '2008-2009 ',
+    TotalGrantApproved: 711000,
+    TotalApplicationApproved: 1
+  },
+  {
+    Year: '2009-2010',
+    TotalGrantApproved: 5751000 ,
+    TotalApplicationApproved: 7
+  },
+  {
+    Year: '2010-2011',
+    TotalGrantApproved: 1000000 ,
+    TotalApplicationApproved: 1
+  },
+  {
+    Year: '2011-2012',
+    TotalGrantApproved: 9297000,
+    TotalApplicationApproved: 10
+  },
+  {
+    Year: '2012-2013',
+    TotalGrantApproved: 6929960 ,
+    TotalApplicationApproved: 7
+  },
+  {
+    Year: '2013-2014',
+    TotalGrantApproved: 9417440 ,
+    TotalApplicationApproved: 10
+  },
+  {
+    Year: '2014-2015',
+    TotalGrantApproved: 11790100 ,
+    TotalApplicationApproved: 9
+  },
+  {
+    Year: '2015-2016',
+    TotalGrantApproved: 4793800 ,
+    TotalApplicationApproved: 4
+  },
+  {
     name: "2017-2018",
-    TotalGrantApproved: 6809025 ,
+    TotalGrantApproved: 4809025 ,
     TotalApplicationApproved: 4
   },
   {
