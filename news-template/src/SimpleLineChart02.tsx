@@ -107,10 +107,10 @@ export function SimpleLineChart02 (props: {width: number}){
     }}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="Year" tick={<CustomizedAxisTick />} interval={0} />
-        <YAxis domain={[0, 1200]} tickCount={15} interval={1} fontSize={20}/>
+        <YAxis domain={[0, 30]} tickCount={15} interval={1} fontSize={20}/>
         <Tooltip content={<CustomTooltip />}/>
         <Legend wrapperStyle={{paddingTop: 30}} />
-        <Line type="monotone" dataKey="Telephone" stroke="#4A77C6"/> 
+        <Line type="monotone" dataKey="Buildings" stroke="#4A77C6"/> 
     </LineChart>
     )
 }
