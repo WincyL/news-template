@@ -115,7 +115,7 @@ function App() {
 
         <div className=' w-full flex flex-col justify-start items-start bg-slate-50 p-1'>
           <p className='flex w-full justify-center items-center text-center font-semibold'>
-            Total of Building within each year
+            Total Number of Approved Fundings
           </p>
           <BarChartStackedBySign01 width={pageWidth} />
         </div>
