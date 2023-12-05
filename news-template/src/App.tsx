@@ -57,7 +57,6 @@ function App() {
         
         <div>
           <p>Once used to carry out underground intelligence work against the Japanese military during the Second World War, an 85-year-old building in Tsim Sha Tsui is now at risk of being demolished despite being well-maintained and loved by the public.</p>
-          <p>The historic structure is among approximately 8,800 buildings which heritage advocates like Chan are calling for stronger protection.</p>
         </div>    
         <br></br>
         
