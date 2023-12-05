@@ -56,7 +56,8 @@ function App() {
         </div>
         
         <div>
-          <p>Once used to carry out underground intelligence work against the Japanese military during the Second World War, an 85-year-old building in Tsim Sha Tsui is now at risk of being demolished despite being well-maintained and loved by the public. </p>
+          <p>Once used to carry out underground intelligence work against the Japanese military during the Second World War, an 85-year-old building in Tsim Sha Tsui is now at risk of being demolished despite being well-maintained and loved by the public.</p>
+          <p>The historic structure is among approximately 8,800 buildings which heritage advocates like Chan are calling for stronger protection.</p>
         </div>    
         <br></br>
         
@@ -69,7 +70,7 @@ function App() {
 
           <FadeInParagraph text="“The Antiquities and Monuments Office seldom receives reports, does not pay attention to our opinions and even ignores them,” said Chan Kwok Ho, founder of Hong Kong Heritage, a non-government organization dedicated to preserving historic buildings."/>
         </div>
-        
+
         <div className='w-full flex justify-center items-center'>
             <img src='./images/newsphoto.jpg' className='contain'  />
           </div>
