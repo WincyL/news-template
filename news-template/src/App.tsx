@@ -67,6 +67,7 @@ function App() {
           <LeftDeco left={-30} top={0} />
           </div>
 
+          <br></br>
           <FadeInParagraph text="“The Antiquities and Monuments Office seldom receives reports, does not pay attention to our opinions and even ignores them,” said Chan Kwok Ho, founder of Hong Kong Heritage, a non-government organization dedicated to preserving historic buildings."/>
         </div>
 
