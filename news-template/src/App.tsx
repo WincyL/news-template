@@ -58,13 +58,14 @@ function App() {
         <div>
         <p>Once used to carry out underground intelligence work against the Japanese military during the Second World War, an 85-year-old building in Tsim Sha Tsui is now at risk of being demolished despite being well-maintained and loved by the public.</p>
         <br></br>
-        
+
         <FadeInParagraph text="The city’s only remaining pre-war western-style structure was classified as a grade three building in 2018, meaning it has some merit but did not qualify to be considered as a possible monument. Only those with grade one accreditation are considered with outstanding merit and warrant every effort to be preserved."/>
         
           <div className=' w-full relative flex justify-center items-center'>
           <LeftDeco left={-30} top={0} />
           </div>
-
+          <br></br>
+          <FadeInParagraph text="“Research group Urban Studies Institute and local tourist company Walk In Hong Kong submitted a report to the Antiquities and Monuments Office, asking to re-rate the historic structure as a grade one, but the application was rejected."/>
           <br></br>
           <FadeInParagraph text="“The Antiquities and Monuments Office seldom receives reports, does not pay attention to our opinions and even ignores them,” said Chan Kwok Ho, founder of Hong Kong Heritage, a non-government organization dedicated to preserving historic buildings."/>
         </div>
