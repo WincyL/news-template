@@ -56,11 +56,9 @@ function App() {
         </div>
         
         <div>
-          <p>Once used to carry out underground intelligence work against the Japanese military during the Second World War, an 85-year-old building in Tsim Sha Tsui is now at risk of being demolished despite being well-maintained and loved by the public.</p>
-        </div>    
+        <p>Once used to carry out underground intelligence work against the Japanese military during the Second World War, an 85-year-old building in Tsim Sha Tsui is now at risk of being demolished despite being well-maintained and loved by the public.</p>
         <br></br>
         
-        <div>
         <FadeInParagraph text="The city’s only remaining pre-war western-style structure was classified as a grade three building in 2018, meaning it has some merit but did not qualify to be considered as a possible monument. Only those with grade one accreditation are considered with outstanding merit and warrant every effort to be preserved."/>
         
           <div className=' w-full relative flex justify-center items-center'>
