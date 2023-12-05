@@ -58,3 +58,11 @@
   object-fit: cover;
   min-width: 100%;
 }
+p {
+  font-size: 1.5em;
+  border: 1px solid black;
+  padding: 10px;
+  width: 95%;
+  margin: 10px auto;
+  text-align: justify;
+}
